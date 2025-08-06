@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# VSCode settings (se usar)
+.vscode/
+
+# Arquivos de log
+*.log
+
+# Arquivos de banco de dados
+*.sqlite3
+*.db
+
+# Variáveis de ambiente e arquivos sensíveis
+.env
+.env.*
+
+# Cache e builds
+*.egg-info/
+dist/
+build/
+.cache/
+*.spec
+
+# Testes e cobertura
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# pyright
+pyrightconfig.json
+
+# IDEs
+.idea/
+*.swp
+*.swo
+
+# Docker
+*.pid
+*.pid.lock
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
