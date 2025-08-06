@@ -14,13 +14,6 @@ Este é o backend para a aplicação de conversão de PDF para CSV. É uma API c
 
 ```
 api/
-├── app/
-│   ├── services/
-│   │   ├── __init__.py
-│   │   ├── converter.py  # Lógica para converter texto para CSV
-│   │   ├── gemini.py     # Roteador e lógica para processar o PDF com a API Gemini
-│   │   └── pdf_reader.py # Lógica para ler o texto do PDF
-│   └── __init__.py
 ├── main.py             # Ponto de entrada da aplicação FastAPI
 ├── requirements.txt    # Dependências do projeto
 └── README.md           # Este arquivo
